@@ -1,0 +1,58 @@
+# StartupCow
+
+StartupCow é um script feito para quando você logar no seu sistema aparecer uma linda vaca companheira que vai para o centro da yela, dá um mugido e vai embora.
+
+# licença
+esse projeto é licenciado pelo mit, leia o arquivo de licença para mais detalhes
+
+# contribuição
+
+o startup cow está totalmente aberto a contribuições, caso queira contribuir basta saber:
+- python
+- pyqt
+
+# como instalar
+
+primeiro clone o repositório no github
+
+```bash
+git clone "https://github.com/pixelcatBR/StartupCow.git"
+```
+
+ele irá ter vários scripts para serem instalados
+
+substitua o seu user no arquivo startup.desktop usando o nano ou seu editor
+
+```bash
+nano [substitua pela pasta onde foi clonado]/startup.desktop
+```
+
+entre na pasta config
+```bash
+cd ~/.config/
+```
+crie a pasta autostart caso ela não exista
+```bash
+mkdir autostart
+```
+agora mova o arquivo startup.desktop para a pasta autostart criada
+```bash
+mv [substitua pela pasta onde foi clonado]/startup.desktop autostart/
+```
+
+agora mova todos os arquivos da pasta onde foi clonado para a sua home
+
+```bash
+mv [substitua pela pasta onde foi clonado]/* ~/
+```
+agora instale o mpg123
+```bash
+sudo apt-get install mpg123
+```
+e támbem use o pip para instalar o pyqt5
+
+```bash
+pip install PyQt5 --break-system-packages
+```
+
+Pronto! agora uma vaquinha startup vai aparecer toda vez que ligar o pc!
