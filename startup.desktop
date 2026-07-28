@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
 Name=StartupCow
-Exec=/home/pedro/startup.sh
+Exec=/home/[seu_user]/startup.sh
 Comment=Script executado ao iniciar o KDE que cria uma vaca fofa
