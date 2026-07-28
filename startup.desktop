@@ -1,5 +1,5 @@
 [Desktop Entry]
 Type=Application
-Name=Animações e Easter Eggs no login
+Name=StartupCow
 Exec=/home/pedro/startup.sh
-Comment=Script executado ao iniciar o KDE
+Comment=Script executado ao iniciar o KDE que cria uma vaca fofa
