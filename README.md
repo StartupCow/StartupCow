@@ -1,6 +1,6 @@
 # StartupCow
 
-StartupCow é um script feito para quando você logar no seu sistema aparecer uma linda vaca companheira que vai para o centro da yela, dá um mugido e vai embora.
+StartupCow é um script feito para quando você logar no seu sistema aparecer uma linda vaca companheira que vai para o centro da tela, dá um mugido e vai embora.
 
 # licença
 esse projeto é licenciado pelo mit, leia o arquivo de licença para mais detalhes
