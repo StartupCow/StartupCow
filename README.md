@@ -7,7 +7,7 @@ esse projeto é licenciado pelo mit, leia o arquivo de licença para mais detalh
 
 # contribuição
 
-o startup cow está totalmente aberto a contribuições, caso queira contribuir basta saber:
+o StartupCow está totalmente aberto a contribuições, caso queira contribuir basta saber:
 - python
 - pyqt
 
