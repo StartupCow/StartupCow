@@ -2,7 +2,7 @@ echo "Iniciando o Script instalador"
 cd ~/
 echo "[ OK ] Iniciado"
 echo "Instalando dependências..."
-apt install mpg123 python3 python3-pip
+sudo apt install mpg123 python3 python3-pip
 pip install PyQt5 --break-system-packages
 echo "[ OK ] dependências instaladas"
 echo "clonando repositório oficial..."
