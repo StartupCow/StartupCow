@@ -12,7 +12,16 @@ o StartupCow está totalmente aberto a contribuições, caso queira contribuir b
 - pyqt
 
 # como instalar
+Temos dois métodos oficiais, script(recomendado) e manual
 
+## script instalador (recomendado)
+execute esse comando
+```bash
+curl -sSL https://raw.githubusercontent.com/pixelcatBR/StartupCow/install.sh | sudo bash
+```
+reinicie o pc ou execute o script startup.sh criado na sua home
+
+## manual
 primeiro clone o repositório no github
 
 ```bash
