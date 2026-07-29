@@ -17,7 +17,7 @@ Temos dois métodos oficiais, script(recomendado) e manual
 ## script instalador (recomendado)
 execute esse comando
 ```bash
-curl -sSL https://raw.githubusercontent.com/pixelcatBR/StartupCow/main/install.sh | sudo bash
+curl -sSL https://raw.githubusercontent.com/pixelcatBR/StartupCow/main/install.sh | bash
 ```
 reinicie o pc ou execute o script startup.sh criado na sua home
 
