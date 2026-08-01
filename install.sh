@@ -22,8 +22,10 @@ echo "[ OK ] Movido"
 echo "Dando permissão de execução pro script..."
 chmod +x ~/startup.sh
 echo "[ OK ] Arquivo com permissão"
+echo "removendo a pasta antiga..."
+rm -rf StartupCow
+echo "[ OK ] Removido"
 echo "============================================================"
-echo "O StartupCow foi instalado!"
-echo "Para usar basta reiniciar o pc ou executar o startup.sh"
-echo "Obrigado por baixar o StartupCow, e para finalizar: MUUUUU"
+echo "            A instalação foi Muuuucluída"
 echo "============================================================"
+mpg123 -q ~/vaca_mugido.mp3
