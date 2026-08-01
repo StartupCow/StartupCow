@@ -23,7 +23,7 @@ echo "Dando permissão de execução pro script..."
 chmod +x ~/startup.sh
 echo "[ OK ] Arquivo com permissão"
 echo "removendo a pasta antiga..."
-rm -rf StartupCow
+rm -rf ~/StartupCow
 echo "[ OK ] Removido"
 echo "============================================================"
 echo "            A instalação foi Muuuucluída"
