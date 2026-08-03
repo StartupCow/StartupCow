@@ -41,10 +41,10 @@ git clone "https://github.com/pixelcatBR/StartupCow.git"
 
 ele irá ter vários scripts para serem instalados
 
-substitua o seu user no arquivo startup.desktop usando o nano ou seu editor
+substitua o seu user no arquivo startup.desktop e startup.sh usando o nano ou seu editor
 
 ```bash
-nano [substitua pela pasta onde foi clonado]/startup.desktop
+nano [substitua pela pasta onde foi clonado]/[um dos dois]
 ```
 
 entre na pasta config
