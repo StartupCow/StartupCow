@@ -1,3 +1,7 @@
 #!/bin/bash
-python3 /home/[seu_user]/cow.py
 
+if [ -n "$WAYLAND_DISPLAY" ]; then
+    export QT_QPA_PLATFORM=xcb
+fi
+
+exec python3 "$HOME/cow.py" "$@"
