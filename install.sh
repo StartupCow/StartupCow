@@ -10,7 +10,7 @@ git clone "https://github.com/pixelcatBR/StartupCow.git"
 echo "[ OK ] clonado"
 echo "Editando arquivo startup.desktop e startup.sh..."
 sed -i "s/\/home\/\[seu_user\]/\/home\/$USER/g" StartupCow/startup.desktop
-sed -i "s/\[seu_user\]/$USER/g" /caminho/para/seu_script.sh
+sed -i "s/\[seu_user\]/$USER/g" StartupCow/startup.sh
 echo "[ OK ] editado"
 echo "Movendo Arquivo startup.desktop..."
 cd ~/.config/
