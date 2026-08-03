@@ -8,9 +8,8 @@ echo "[ OK ] dependências instaladas"
 echo "clonando repositório oficial..."
 git clone "https://github.com/pixelcatBR/StartupCow.git"
 echo "[ OK ] clonado"
-echo "Editando arquivo startup.desktop e startup.sh..."
+echo "Editando arquivo startup.desktop..."
 sed -i "s/\/home\/\[seu_user\]/\/home\/$USER/g" StartupCow/startup.desktop
-sed -i "s/\[seu_user\]/$USER/g" StartupCow/startup.sh
 echo "[ OK ] editado"
 echo "Movendo Arquivo startup.desktop..."
 cd ~/.config/
