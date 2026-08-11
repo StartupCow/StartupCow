@@ -2,17 +2,6 @@
 
 StartupCow é um script feito para quando você logar no seu sistema aparecer uma linda vaca companheira que vai para o centro da tela, dá um mugido e vai embora.
 
-# Missão da Comunidade
-
-Criem StartupCows customizadas do seu animal favorito e me falem para eu colocar
-oficialmente na nossa organização. quero:
-
-1. criem fork desse repositório
-2. troquem os arquivos mp3 e png
-3. chamem eles de Startup[nome]
-4. divulguem ou tentem contato comigo diretamente
-
-
 # licença
 esse projeto é licenciado pelo mit, leia o arquivo de licença para mais detalhes
 
