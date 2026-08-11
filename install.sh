@@ -9,7 +9,7 @@ echo "clonando repositório oficial..."
 git clone "https://github.com/pixelcatBR/StartupCow.git"
 echo "[ OK ] clonado"
 echo "Editando arquivo startup.desktop..."
-sed -i "s/\/home\/\[seu_user\]/\/home\/$USER/g" StartupCow/startup.desktop
+sed -i "s|^Exec=.*|Exec=$HOME/startup.sh|" StartupCow/startup.desktop
 echo "[ OK ] editado"
 echo "Movendo Arquivo startup.desktop..."
 cd ~/.config/
