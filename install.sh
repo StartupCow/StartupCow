@@ -28,9 +28,9 @@ echo "[ OK ] Removido"
 
 echo "Deseja instalar o apocalipse das vacas? (s/n)
 if [ "$resposta" = "s" ] || [ "$resposta" = "S" ] || [ "$resposta" = "sim" ] || [ "$resposta" = "SIM" ]; then
-  echo "Legal! vamos preparar o rebanho...
+  echo "Legal! vamos preparar o rebanho..."
   sudo cp ~/cowapocalypse.py /usr/local/bin/apocalypse
-  echo "- use com o comando: apocalypse.
+  echo "- use com o comando: apocalypse."
 elif [ "$resposta" = "n" ] || [ "$resposta" = "N" ] || [ "$resposta" = "nao" ] || [ "$resposta" = "NÃO" ]; then
   echo "Que pena! fique com a vaquinha normal então que por si só já é legal."
 else
