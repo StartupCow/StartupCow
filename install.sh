@@ -27,6 +27,7 @@ rm -rf ~/StartupCow
 echo "[ OK ] Removido"
 
 echo "Deseja instalar o apocalipse das vacas? (s/n)"
+read resposta
 if [ "$resposta" = "s" ] || [ "$resposta" = "S" ] || [ "$resposta" = "sim" ] || [ "$resposta" = "SIM" ]; then
   echo "Legal! vamos preparar o rebanho..."
   sudo cp ~/cowapocalypse.py /usr/local/bin/apocalypse
