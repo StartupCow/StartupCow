@@ -28,14 +28,17 @@ echo "[ OK ] Removido"
 
 echo "Deseja instalar o apocalipse das vacas? (s/n)"
 read resposta
+
 if [ "$resposta" = "s" ] || [ "$resposta" = "S" ] || [ "$resposta" = "sim" ] || [ "$resposta" = "SIM" ]; then
-  echo "Legal! vamos preparar o rebanho..."
-  sudo cp ~/cowapocalypse.py /usr/local/bin/apocalypse
-  echo "- use com o comando: apocalypse."
-elif [ "$resposta" = "n" ] || [ "$resposta" = "N" ] || [ "$resposta" = "nao" ] || [ "$resposta" = "NÃO" ]; then
-  echo "Que pena! fique com a vaquinha normal então que por si só já é legal."
+    echo "Legal! vamos preparar o rebanho..."
+    sudo cp ~/cowapocalypse.py /usr/local/bin/apocalypse
+    echo "Instalado! use com o comando: apocalypse"
 else
-  echo "Não entendi o que você falou, vou assumir como não"
+    if [ "$resposta" = "n" ] || [ "$resposta" = "N" ] || [ "$resposta" = "nao" ] || [ "$resposta" = "NÃO" ]; then
+        echo "Que pena! fique com a vaquinha normal então que por si só já é legal."
+    else
+        echo "Não entendi o que você falou, vou assumir como não"
+    fi
 fi
 echo "============================================================"
 echo "            A instalação foi Muuuucluída"
