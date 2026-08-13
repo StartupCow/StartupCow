@@ -32,7 +32,7 @@ read resposta
 if [ "$resposta" = "s" ] || [ "$resposta" = "S" ] || [ "$resposta" = "sim" ] || [ "$resposta" = "SIM" ]; then
     echo "Legal! vamos preparar o rebanho..."
     sudo cp ~/cowapocalypse.py /usr/local/bin/apocalypse
-    chmod +x /usr/local/bin/apocalypse
+    sudo chmod +x /usr/local/bin/apocalypse
     echo "Instalado! use com o comando: apocalypse"
 else
     if [ "$resposta" = "n" ] || [ "$resposta" = "N" ] || [ "$resposta" = "nao" ] || [ "$resposta" = "NÃO" ]; then
