@@ -5,7 +5,8 @@ StartupCow é um script feito para quando você logar no seu sistema aparecer um
 # Apocalipse das vacas
 
 apocalipse das vacas é um script adicional que cria um rebanho de 500 StartupCows,com uma a cada meio segundo.
-ela é instalada ao confirmar com sim no script instalador.
+atualmente ela funciona apenas em X11 mas estamos trabalhando no suporte a wayland.
+ela é instalada ao confirmar com sim no script instalador, se você digitou sim 
 para usar basta digitar:
 ```bash
 apocalypse
