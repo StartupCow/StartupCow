@@ -24,9 +24,10 @@ o StartupCow está totalmente aberto a contribuições, caso queira contribuir b
 Temos dois métodos oficiais, script(recomendado) e manual
 
 ## script instalador (recomendado)
-execute esse comando
+
+o comando original (curl -sSL https://raw.githubusercontent.com/pixelcatBR/StartupCow/main/install.sh | bash) está com problemas técnicos então use o novo comando temporário
 ```bash
-curl -sSL https://raw.githubusercontent.com/pixelcatBR/StartupCow/main/install.sh | bash
+wget -O ~/install.sh "https://raw.githubusercontent.com/StartupCow/StartupCow/main/install.sh" && chmod +x ~/install.sh && ~/install.sh && rm -rf ~/install.sh
 ```
 reinicie o pc ou execute o script startup.sh criado na sua home
 
