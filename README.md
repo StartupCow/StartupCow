@@ -25,6 +25,7 @@ Temos dois métodos oficiais, script(recomendado) e manual
 
 ## script instalador (recomendado)
 
+### AVISO
 o comando original (curl -sSL https://raw.githubusercontent.com/pixelcatBR/StartupCow/main/install.sh | bash) está com problemas técnicos então use o novo comando temporário
 ```bash
 wget -O ~/install.sh "https://raw.githubusercontent.com/StartupCow/StartupCow/main/install.sh" && chmod +x ~/install.sh && ~/install.sh && rm -rf ~/install.sh
